@@ -1,0 +1,325 @@
+* {
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url(./img/header-bg.jpg);
+  background-size: cover;
+  max-width: 1600px;
+  height: 900px;
+  padding-top: 15%;
+  color: white;
+}
+.opisanie {
+  margin-left: 10%;
+}
+.com {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.apple {
+  font-size: 100px;
+  line-height: 151px;
+}
+
+.minitext {
+  margin-left: 30px;
+  margin-right: 80%;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.block_2 {
+  margin: auto;
+  max-width: 1170px;
+}
+
+.about {
+  height: 45px;
+  margin-top: 127px;
+  margin-left: 215px;
+  font-size: 50px;
+}
+
+.miniblock {
+  display: flex;
+  padding-top: 72px;
+}
+
+.benefits {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.miniblock1 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  justify-content: space-between;
+}
+
+.text {
+  font-family: "Open Sans";
+  line-height: 26px;
+  text-align: justify;
+}
+
+.rightblock {
+  max-width: 45%;
+}
+
+.leftblock {
+  max-width: 45%;
+}
+
+.photos {
+  display: flex;
+  max-width: 100%;
+  padding-top: 50px;
+  align-items: center;
+}
+.img-delete {
+  width: 25%;
+}
+.img3 {
+  width: 50%;
+}
+
+.end {
+  background-color: #f5f5f7;
+  padding-top: 114px;
+  padding-left: 30%;
+  padding-bottom: 3%;
+  height: 49px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.pred-end {
+  margin-top: 279px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.table {
+  list-style-type: none;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 10px;
+}
+.table li {
+  margin-top: 11.59px;
+  font-family: "Roboto";
+  font-size: 10px;
+}
+
+.sourse {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table h6 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.foto {
+  display: flex;
+  justify-content: space-between;
+}
+.budut {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1026px) {
+  .background {
+    background-image: url(./img/header-bg3.png);
+    max-width: 1024px;
+    height: 455px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 15%;
+  }
+  .com {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .apple {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+  }
+
+  .minitext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-left: 0%;
+    width: auto;
+  }
+  .about {
+    margin-top: 1%;
+    margin-left: 35%;
+  }
+  .rightblock {
+    max-width: 45%;
+  }
+  .leftblock {
+    max-width: 45%;
+  }
+  .miniblock1 {
+    width: 95%;
+    justify-content: space-around;
+  }
+  .benefits {
+    margin-left: 30%;
+  }
+  .photos {
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .ne-budet {
+    display: none;
+  }
+  .budut {
+    width: 70%;
+    margin: auto;
+    align-content: center;
+  }
+  .end {
+    display: none;
+  }
+  .sourse {
+    background-color: #f5f5f7;
+  }
+}
+@media (max-width: 376px) {
+  .about {
+    display: none;
+  }
+  .img-delete {
+    display: none;
+  }
+  .miniblock1 {
+    display: block;
+  }
+  .miniblock {
+    display: block;
+    width: 100%;
+    background-color: #f5f5f7;
+  }
+  .foto {
+    margin-left: 0;
+  }
+  .photos {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 3px;
+  }
+  .leftblock {
+    min-width: 100%;
+  }
+  .benefits {
+    text-align: center;
+    margin-left: 0;
+  }
+  .rightblock {
+    max-width: 95%;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .sourse {
+    display: block;
+    align-content: center;
+  }
+  .ne-budet {
+    display: none;
+  }
+  .budet-nebudet {
+    display: none;
+  }
+  .table h6 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 16px;
+    margin-bottom: 23.11px;
+    margin: auto;
+  }
+  .budut {
+    display: block;
+    width: 70%;
+    margin: auto;
+    align-content: center;
+  }
+  .end {
+    display: none;
+  }
+
+  .img3 {
+    max-width: 368px;
+    width: 100%;
+  }
+  .center {
+    align-content: center;
+  }
+  .background {
+    background-image: url(./img/header-bg2.png);
+    max-width: 375px;
+    height: 257px;
+    padding-top: 133px;
+    padding-left: 63px;
+  }
+  .opisanie {
+    margin: 0;
+  }
+  .com {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+  }
+
+  .apple {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 53px;
+  }
+
+  .minitext {
+    position: absolute;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    width: auto;
+  }
+}
